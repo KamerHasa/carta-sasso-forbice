@@ -1,0 +1,35 @@
+body {
+    background-color: Canvas;
+    color: CanvasText;
+    color-scheme: light dark;
+}
+h1 {
+    color: #F07B3F;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 15%;
+}
+
+#sceltaGiocatore {
+    text-align: center;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #F07B3F;
+    color: #edeef0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+#esitoRound {
+    color: #F07B3F;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 15%;
+}
