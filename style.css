@@ -2,6 +2,7 @@ body {
     background-color: Canvas;
     color: CanvasText;
     color-scheme: light dark;
+    font-size: 30px;
 }
 h1 {
     color: #F07B3F;
@@ -9,6 +10,7 @@ h1 {
     margin-bottom: 20px;
     text-align: center;
     margin: 15%;
+    
 }
 
 #sceltaGiocatore {
@@ -32,4 +34,9 @@ button{
     margin-bottom: 20px;
     text-align: center;
     margin: 15%;
+    font-size: 45px;
 }
+
+#esitoRound h1 {
+    transition: opacity 0.3s ease;
+  }

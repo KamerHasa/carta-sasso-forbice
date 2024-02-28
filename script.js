@@ -26,7 +26,6 @@ var btnCarta = document.getElementById("btnCarta");
 var btnForbice = document.getElementById("btnForbice");
 var btnSasso = document.getElementById("btnSasso");
 
-
 btnCarta.addEventListener("click", function() {
     const sceltaUtente = btnCarta.value;
     round(sceltaUtente);
@@ -61,6 +60,9 @@ function round(sceltaUtente) {
             ris = "Hai perso | " + sceltaPc + " contro " +sceltaUtente;
     }
     console.log(ris + "\n\n\n\n");
+
+    document.getElementById("esitoRound").innerHTML = ris
+    
     return ris;
 }
 
